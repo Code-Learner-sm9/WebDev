@@ -1,0 +1,5 @@
+git add .
+git commit -m "Init"
+git branch -M main
+git remote add origin https://github.com/Code-Learner-sm9/WebDev.git
+git push -u origin main
