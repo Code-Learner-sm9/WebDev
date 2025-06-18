@@ -1,0 +1,27 @@
+body{
+  background-color: rgba(213,33,55, 0.5);
+
+}
+header{
+  text-align: center;
+}
+main{
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  margin: 0 auto;
+}
+input{
+  width: 100%;
+  min-height: 1.4em;
+  margin-bottom: 0.5em;
+}
+.buttons{
+  margin: 0.5em 0;
+}
+button{
+  margin-right: 0.5em;
+}
+fieldset{
+  border: 6px dotted brown;
+}

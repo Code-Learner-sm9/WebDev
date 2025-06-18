@@ -1,0 +1,6 @@
+shift + alt + f = beautify code
+alt + z = wrap sentences
+ctrl + d = select same words
+ctrl + +/- = to zoom in or out
+Ctrl + Shift + L = Select all occurrences of the current word at once
+ctrl + `(backtick it is, it located upper side of tab button) = open terminal and close
