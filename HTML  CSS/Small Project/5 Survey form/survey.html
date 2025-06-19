@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Survey Form</title>
+  <meta charset="utf">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="container">
+
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">This Form should be Filled Up</p>
+    </header>
+
+    <main>
+      <form id="survey-form">
+        <section class="changes change">
+          <label id="name-label">Name: <input type="text" id="name" name="name" placeholder="Enter Your Name: "
+              required></label>
+
+          <label id="email-label">Email: <input type="email" id="email" name="email" placeholder="Enter Your Email: "
+              pattern="[a-z0-9._+-%]+@[a-z0/9.-]+\.[a-z]{3,}" size="30" title="Enter a Valid Address!" required></label>
+
+          <label id="number-label">Age: <input type="number" id="number" pattern="[0-9]{11}" min="18" max="55"
+              placeholder="Age: "></label>
+        </section>
+
+        <section class="changes2 change">
+
+          <label>Which option best describes your current role?
+            <select id="dropdown" required>
+              <option disabled selected value>Select Current Role</option>
+              <label class="options">
+                <option value="student">Student</option>
+              </label>
+              <label class="options">
+                <option value="fjob">Full-Time Job</option>
+              </label>
+              <label class="options">
+                <option value="pjob">Part-Time Job</option>
+              </label>
+              <label class="options">
+                <option value="pre">Prefer not to say</option>
+              </label>
+              <label class="options">
+                <option value="other">Other</option>
+              </label>
+            </select>
+          </label>
+
+        </section>
+
+        <section class="changes3 change">
+          <label id="radios">Would you recommend freeCodeCamp to a friend?
+            </label>
+            <label>
+            <input type="radio" value="yes" id="radio" name="probability"> Yes
+             </label>
+             <label>
+            <input type="radio" value="no" id="radio" name="probability"> No
+             </label>
+             <label>
+            <input type="radio" value="not-sure" id="radio" name="probability"> Not Sure
+
+             </label>
+
+        </section>
+
+        <section class="changes4 change">
+
+          <label>Select Your Preferable courses:
+            </label>
+            <label>
+            <input type="checkbox" value="web" id="checkbox">Web Development</label>
+          <label>
+            <input type="checkbox" value="graphics" id="checkbox">Graphics Design</label>
+          <label>
+            <input type="checkbox" value="android" id="checkbox">Android
+          </label>
+          <label>
+            <input type="checkbox" value="ios" id="checkbox">IOS</label>
+          <label>
+            <input type="checkbox" value="others" id="checkbox">Others
+          </label>
+        </section>
+
+        <section class="changes5">
+          <label for="comment">Leave us a comment: <textarea rows="4" cols="30">
+  </textarea> </label>
+        </section>
+
+        <button type="submit" id="submit">Submit</button>
+
+      </form>
+    </main>
+  </div>
+
+
+
+
+
+
+  
+
+
+  <div id="container1">
+
+    <div id="contain">
+      <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">This Form should be Filled Up</p>
+    </header>
+
+    <main>
+      <form id="survey-form">
+        <section class="changes change">
+          <label id="name-label">Name: <input type="text" id="name" name="name" placeholder="Enter Your Name: "
+              required></label>
+
+          <label id="email-label">Email: <input type="email" id="email" name="email" placeholder="Enter Your Email: "
+              pattern="[a-z0-9._+-%]+@[a-z0/9.-]+\.[a-z]{3,}" size="30" title="Enter a Valid Address!" required></label>
+
+          <label id="number-label">Age: <input type="number" id="number" pattern="[0-9]{11}" min="18" max="55"
+              placeholder="Age: "></label>
+        </section>
+
+        <section class="changes2 change">
+
+          <label>Which option best describes your current role?
+            <select id="dropdown" required>
+              <option disabled selected value>Select Current Role</option>
+              <label class="options">
+                <option value="student">Student</option>
+              </label>
+              <label class="options">
+                <option value="fjob">Full-Time Job</option>
+              </label>
+              <label class="options">
+                <option value="pjob">Part-Time Job</option>
+              </label>
+              <label class="options">
+                <option value="pre">Prefer not to say</option>
+              </label>
+              <label class="options">
+                <option value="other">Other</option>
+              </label>
+            </select>
+          </label>
+
+        </section>
+
+        <section class="changes3 change">
+          <label id="radios">Would you recommend freeCodeCamp to a friend?
+            </label>
+            <label>
+            <input type="radio" value="yes" id="radio" name="probability"> Yes
+             </label>
+             <label>
+            <input type="radio" value="no" id="radio" name="probability"> No
+             </label>
+             <label>
+            <input type="radio" value="not-sure" id="radio" name="probability"> Not Sure
+
+             </label>
+
+        </section>
+
+        <section class="changes4 change">
+
+          <label>Select Your Preferable courses:
+            </label>
+            <label>
+            <input type="checkbox" value="web" id="checkbox">Web Development</label>
+          <label>
+            <input type="checkbox" value="graphics" id="checkbox">Graphics Design</label>
+          <label>
+            <input type="checkbox" value="android" id="checkbox">Android
+          </label>
+          <label>
+            <input type="checkbox" value="ios" id="checkbox">IOS</label>
+          <label>
+            <input type="checkbox" value="others" id="checkbox">Others
+          </label>
+        </section>
+
+        <section class="changes5">
+          <label for="comment">Leave us a comment: <textarea rows="4" cols="30">
+  </textarea> </label>
+        </section>
+
+        <button type="submit" id="submit">Submit</button>
+
+      </form>
+    </main>
+    </div>
+  </div>
+
+</body>
+
+</html>
